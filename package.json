@@ -1,13 +1,1 @@
-{
-  "dependencies": {
-    "axios": "1.7.2",
-    "firebase": "10.7.2",
-    "postcss": "8.4.32",
-    "autoprefixer": "10.4.16",
-    "cypress": "13.8.0",
-    "eslint": "8.56.0",
-    "@nuxtjs/sentry": "8.0.0",
-    "@nuxtjs/recaptcha": "1.5.0",
-    "other-dependencies": "latest-compatible-version"
-  }
-}
+{\n  "name": "andronix-website-base",\n  "version": "1.0.0",\n  "private": true,\n  "scripts": {\n    "dev": "nuxt-ts",\n    "build": "nuxt-ts build",\n    "start": "nuxt-ts start",\n    "generate": "nuxt-ts generate",\n    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",\n    "lint": "yarn run lint:js",\n    "e2e": "cypress run",\n    "e2e:open": "cypress open"\n  },\n  "dependencies": {\n    "@animxyz/core": "0.6.6",\n    "@animxyz/vue": "0.6.6",\n    "@braid/vue-formulate": "^2.5.0",\n    "@nuxt/typescript-runtime": "^2.0.0",\n    "@nuxtjs/axios": "^5.13.0",\n    "@nuxtjs/firebase": "^7.3.0",\n    "@nuxtjs/recaptcha": "^1.5.0",\n    "@nuxtjs/robots": "^2.4.2",\n    "@nuxtjs/sentry": "^8.0.0",\n    "@nuxtjs/sitemap": "^2.4.0",\n    "@tailwindcss/line-clamp": "^0.2.0",\n    "@tailwindcss/typography": "^0.4.0",\n    "autoprefixer": "^10.4.16",\n    "axios": "^1.7.2",\n    "core-js": "^3.6.5",\n    "firebase": "^10.7.2",\n    "nuxt": "^2.14.12",\n    "nuxt-social-meta": "^0.0.5",\n    "postcss": "^8.4.32",\n    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",\n    "v-viewer": "^1.5.1",\n    "vue-loading-overlay": "^3.4.2",\n    "vue-scrollto": "^2.20.0",\n    "vue-tippy": "^4.7.2",\n    "vue-toast-notification": "^0.6.0"\n  },\n  "devDependencies": {\n    "@nuxt/types": "^2.14.5",\n    "@nuxt/typescript-build": "^2.0.3",\n    "@nuxtjs/eslint-config": "^3.1.0",\n    "@nuxtjs/eslint-config-typescript": "^3.0.0",\n    "@nuxtjs/eslint-module": "^2.0.0",\n    "@nuxtjs/tailwindcss": "^3.4.2",\n    "@types/jest": "^26.0.20",\n    "babel-eslint": "^10.1.0",\n    "chance": "^1.1.7",\n    "cypress": "^13.8.0",\n    "eslint": "^8.56.0",\n    "eslint-plugin-nuxt": "^1.0.0"\n  }\n}
